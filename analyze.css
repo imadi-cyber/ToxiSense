@@ -1,0 +1,91 @@
+.analyze{
+    background-color: rgba(255, 0, 0, 0.4);
+}
+.analyze-box{
+    text-align: left;
+    margin: auto;
+    padding: 1rem 1.56rem 3.125rem;
+}
+.analyze-content{
+    margin: auto;
+    max-width: 970px;
+    text-align: left;
+}
+.analyze p{
+    color: red;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 32px;
+    margin-top: 70px;
+    text-align: center;
+    
+}
+
+.analyze h3{
+    font-size: 1.375rem;
+    font-weight: 400;
+    margin: 0 0 1rem;
+}
+
+.analyze .wrapper{
+    display: flex;
+    flex-direction: row;
+    border-radius: 6px;
+    margin: 2rem 0;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px 0 rgba(119,135,147,.2), 0 10px 30px 0 rgba(119,135,147,.2);;
+}
+.analyze .container{
+    width: 50%;
+    padding: 2rem;
+}
+
+.analyze .container:nth-child(2){
+    border-left: 1px solid #ff0202;;
+}
+
+form{
+    display: block;
+}
+
+.analyze textarea{
+    border: 1px solid #ff0202;
+    border-radius: 3px;
+    color: #7f8a96;
+    display: block;
+    height: 10rem;
+    line-height: 1.6;
+    padding: 1rem 1.5rem;
+    width: 90%;
+    font-size: .938rem;
+    resize: none;
+}
+
+.analyze .btn{
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px 0 rgba(0,136,255,.3);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.063rem;
+    margin-top: 2.25rem;
+    padding: 0.813rem 2.188rem;
+    transition: background-color .3s ease;
+}
+.analyze .btn:hover{
+    opacity: 0.7;
+    font-weight: 400;
+}
+
+.analyze .container .results{
+    color: #460e0e;
+    font-family: Geneva;
+    text-transform: uppercase;
+    font-size: 25px;
+    background-color: white;
+    width: 215px;
+    height: 35px;
+    padding-top: 5px;
+    padding-left: 5px;
+}

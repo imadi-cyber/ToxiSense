@@ -1,0 +1,27 @@
+.footer{
+    width: 100%;
+    font-size: 12px;
+    background-color: rgba(128, 128, 128, 0.397);
+}
+.footer-text{
+    padding: 15px;
+    font-size:15px;
+    font-weight: 600px;;
+}
+.copyright{
+    margin: 0px 0px 12px 7px;
+}
+.cookie-text{
+    margin: 3px 0px 6px;
+    padding: 5px;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-direction: space-between;
+}
+.email p{
+    padding: 0px;
+    justify-content: left;
+}

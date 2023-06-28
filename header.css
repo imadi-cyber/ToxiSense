@@ -1,0 +1,159 @@
+.header{
+    background-color:  rgb(71, 22, 42);
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 25px;
+}
+p{
+    text-align: center;
+    margin: 20px 10px 15px 39px;
+    font-weight: 300px;
+}
+
+.headerIcons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 35px;
+    color: yellow;
+}
+.icon:hover{
+    transform: scale(1.3,1.3);
+    color: red;
+}
+span{
+    width: 150px;
+    text-align: center;
+}
+
+.solution-block {
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.solution-block .content{
+    box-sizing: border-box;
+    max-width: 1052px;
+    margin-right: 0;
+    margin-left: -30px;
+    padding: 65px 75px 75px;
+    border-radius: 20px;
+    background-color: rgba(30, 49, 78, 0.05);
+    position: relative;
+}
+
+.solution-block .content h2 {
+    margin-bottom: 28px;
+    font-size: 45px;
+    line-height: 1.4;
+    font-weight: 00;
+    width: 90%;
+}
+.text-wrapper{
+    display: grid;
+    grid-column-gap: 32px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    width: 90%;
+}
+.content ::before{
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 400px;
+    top: 0;
+    bottom: 0;
+    right: -240px;
+    width: 380px;
+    background-image: url(https://www.bytesview.com/images/products/emotion/emotion-label.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.analysis-benifit{
+    border-top: 1px solid #eee;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.analysis-benifit .container{
+    border-radius: 3px;
+    max-width: 1140px;
+}
+.ab-h{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #41464b;
+}
+.orange-span{
+    color: #ff8c00;
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.ab-left{
+    margin: 3rem 0rem;
+}
+.ab-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 17.6px;
+    padding: 15px;
+}
+.ab-col{
+    width: 50%;
+    flex: 0 0 auto;
+    text-align: left;
+}
+.ab-header{
+    text-align: center;
+    margin: 1rem 0rem 2rem;
+    color: #41464b;
+
+}
+h1 h4{
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h4{
+    display: block;
+    font-size: 1.5rem;
+}
+
+.ab-desc{
+    width: 90%;
+}
+.ab-img{
+    width: 90%;
+    margin-left: 10%;
+    max-height: 500px;
+
+}
+.img-fluid{
+    background-color: #fff;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+    
+    
+}

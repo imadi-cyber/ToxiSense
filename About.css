@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+.about .heading{
+    text-align: center;
+    margin-top: 32px;
+    color: rgb(104, 104, 129);
+    font-weight: bold;
+    font-family: 'Trirong', serif;
+    font-size: 50px;
+
+}
+.about .wrapper{
+    width: 100%;
+    max-width: 1140px;
+    margin: auto ;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.about .wrapper .container{
+
+    width: 35%;
+    height: 350px;
+    text-align: center;
+    background-color:  #f5f6fb;
+    padding: 40px 30px;
+    margin: 16px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    transition: box-shadow 0.3s;
+}
+
+.about .wrapper .container:hover{
+    box-shadow:0 12px 16px 0 rgba(39,39,47,0.06) ;
+}
+
+.about .wrapper .container .img{
+    width: 130px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    height: 120px;
+}
+.about .wrapper .container p{
+    font-size: 14px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+    margin-top: 10px;
+}
+.about .container h3{
+    font-size: 16px;
+    font-weight: 600px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
